@@ -24,6 +24,18 @@ li, a {
     padding-right: 190px;
 }
 
+.cards{
+    display: flex;
+}
+
+.card-highlight{
+
+}
+
+.card{
+
+}
+
 nav {
     background-color: #FFFFFF;
     padding: 15px;
