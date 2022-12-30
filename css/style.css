@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;1,300&family=Inter:wght@400;500;600;800&display=swap');
+
 header{
     background-color: #FB923C;
     color: #FFFFFF;
@@ -9,6 +11,14 @@ header .top{
     justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.logo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
 }
 
 li, a {
@@ -39,6 +49,11 @@ li, a {
 nav {
     background-color: #FFFFFF;
     padding: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 nav .items {
@@ -67,6 +82,11 @@ nav .item a {
     height: 56px;
     color: #FB923C;
     text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
 }
 
 .main .divider .title{
@@ -102,6 +122,11 @@ nav .item a {
 footer{
     background-color: #FB923C;
     color:#FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 footer .container{
