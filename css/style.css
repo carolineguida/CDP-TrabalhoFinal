@@ -90,11 +90,18 @@ nav .item{
     align-items: center;
     padding-right: 15px;
     text-transform: uppercase;
-
 }
+
+nav .item :hover{
+    background-color: #FB923C;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
 nav .item a {
     color: #6B7280;
-    
+    width: 100%;
+    height: 100%;
 }
 
 .main {
