@@ -28,6 +28,10 @@ input {
     height: 28px;
 }
 
+.profile {
+    font-size: 20px;
+}
+
 li, a {
     text-decoration: none;
 }
@@ -165,6 +169,8 @@ img {
     
 }
 
+
+
 .card .categorie {
     text-transform: uppercase;
     color: #9CA3AF;
@@ -172,6 +178,7 @@ img {
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
+    display: flex;
 }
 
 .card .title{
@@ -188,6 +195,11 @@ img {
 
 .categorie {
     margin-right: 50px;
+}
+
+.categorie p:nth-child(2) {
+    color: red;
+    padding-left: 8px;
 }
 
 .categorie .title {
@@ -222,4 +234,14 @@ footer .container{
     border-top: solid 1px #FFFFFF;
     padding-top: 20px;
     padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.credits ul {
+    display: flex;
+}
+
+.credits li{
+    padding-left: 8px;
 }
