@@ -108,10 +108,12 @@ nav .item a {
 }
 
 .cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
 }
+
 
 .card-highlight{
     width: 660px;
@@ -245,3 +247,19 @@ footer .container{
 .credits li{
     padding-left: 8px;
 }
+
+@media (max-width: 390px) {
+    .cards { grid-template-columns: repeat(1, 1fr); }
+    .card{
+        width: 100%;
+       
+    }
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+  }
+@media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+    
+  }
