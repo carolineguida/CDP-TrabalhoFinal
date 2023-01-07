@@ -1,0 +1,98 @@
+.filter {
+    background-color: #F9FAFB;
+    width: 255px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    max-height: 200px;
+}
+
+
+.filter h3 {
+    color: #FB923C;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.filter li{
+    color: #6B7280;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #e7e9ec;
+    margin-left: 30px;
+    width: 78%;
+}
+
+
+.cake {
+    width: 621px;
+    height: 226px;
+    margin-left: 20px;
+    background-color: #F9FAFB;
+    margin-bottom: 20px;
+}
+
+.cake .image{
+    width: 226px;
+    height: 226px;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.cake .description {
+    margin-left: 20px;
+}
+
+.cake .categorie{
+    text-transform: uppercase;
+    color: #9CA3AF;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+}
+
+.cake .title{
+    color: #374151;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.buttons {
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    position: initial;
+}
+
+.button{
+    width: 180px;
+    height: 32px;
+    background: #FB923C;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Inter';
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+
+
